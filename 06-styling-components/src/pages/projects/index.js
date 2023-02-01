@@ -7,7 +7,7 @@ export default function Projects() {
     <Layout>
       <div className={styles.portfolio}>
         <h2>Portfolio</h2>
-        <h3>Porjects & Websites I've created</h3>
+        <h3>Projects & Websites I've created</h3>
       </div>
     </Layout>
   );
