@@ -3,10 +3,9 @@ import { Link, graphql, useStaticQuery } from "gatsby";
 
 export default function Navbar() {
   const data = useStaticQuery(graphql`
-    query SiteInfo {
+    query SiteData {
       site {
         siteMetadata {
-          description
           title
         }
       }
@@ -14,7 +13,7 @@ export default function Navbar() {
   `);
   console.log(data);
 
-  const { title, description } = data.site.siteMetadata;
+  const { title } = data.site.siteMetadata;
   return (
     <nav>
       <h1> {title || `Web Warrior`}</h1>

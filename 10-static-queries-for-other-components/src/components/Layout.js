@@ -8,7 +8,10 @@ export default function Layout(props) {
       <Navbar />
       <div className="content">{props.children}</div>
       <footer>
-        <p>Copyright 2023 Daniel OUATTARA</p>
+        <p>
+          Copyright {new Date().getFullYear()} Daniel OUATTARA - Powered by{" "}
+          <a href="http://gatsby.com">Gatbsy</a>
+        </p>
       </footer>
     </div>
   );
