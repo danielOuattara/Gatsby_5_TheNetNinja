@@ -6,7 +6,6 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 //------------------------------------------------------------
 
 export default function Home(props) {
-  console.log("props = ", props);
   const { description, title } = props.data.site.siteMetadata;
   const image = getImage(props.data.file.childrenImageSharp[0]);
 
