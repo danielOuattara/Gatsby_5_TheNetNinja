@@ -31,6 +31,7 @@ export default function Projects(props) {
   );
 }
 
+// export page query
 export const query = graphql`
   query Projects {
     allMarkdownRemark {

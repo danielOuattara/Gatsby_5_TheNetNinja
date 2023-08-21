@@ -9,8 +9,8 @@ export default function Layout(props) {
       <div className="content">{props.children}</div>
       <footer>
         <p>
-          Copyright {new Date().getFullYear()} Daniel OUATTARA - Powered by{" "}
-          <a href="http://gatsby.com">Gatbsy</a>
+          Copyright 2021 - {new Date().getFullYear()} Daniel OUATTARA - Powered
+          by <a href="http://gatsby.com">Gatbsy</a>
         </p>
       </footer>
     </div>

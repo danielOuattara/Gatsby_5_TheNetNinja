@@ -5,16 +5,16 @@ import { Link, graphql } from "gatsby";
 //------------------------------------------------------------
 
 export default function Home(props) {
-  console.log(props.data);
-
+  console.log(props);
   const { description, title } = props.data.site.siteMetadata;
+
   return (
     <Layout>
       <section className={styles.header}>
         <div>
           <h2>Design</h2>
           <h3>Develop& Deploy</h3>
-          <p>Ux designer & web developerbased in Combs la ville</p>
+          <p>Ux designer & web developer based in Combs la ville</p>
           <Link className={styles.btn} to="/projects">
             My portfolio project
           </Link>

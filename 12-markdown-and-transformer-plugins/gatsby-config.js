@@ -12,9 +12,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        // The unique name for each instance
         name: `projects`,
-        // Path to the directory
         path: `${__dirname}/src/projects/`,
       },
     },

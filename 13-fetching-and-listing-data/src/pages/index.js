@@ -14,7 +14,7 @@ export default function Home(props) {
         <div>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
-          <p>Ux designer & web developerbased in Combs la ville</p>
+          <p>Ux designer & web developer based in Combs la ville</p>
           <Link className={styles.btn} to="/projects">
             My portfolio project
           </Link>
