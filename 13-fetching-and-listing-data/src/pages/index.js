@@ -16,7 +16,7 @@ export default function Home(props) {
           <h3>Develop & Deploy</h3>
           <p>Ux designer & web developer based in Combs la ville</p>
           <Link className={styles.btn} to="/projects">
-            My portfolio project
+            My portfolio projects
           </Link>
         </div>
         <img src="/banner.png" alt="banner" style={{ maxWidth: "100%" }} />

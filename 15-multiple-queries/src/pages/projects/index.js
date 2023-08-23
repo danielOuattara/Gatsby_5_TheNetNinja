@@ -35,7 +35,7 @@ export default function Projects(props) {
 }
 
 export const query = graphql`
-  query Projects {
+  query ProjectsPage {
     projects: allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       nodes {
         id
