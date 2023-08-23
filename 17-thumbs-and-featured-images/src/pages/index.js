@@ -7,7 +7,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 export default function Home(props) {
   const { description, title } = props.data.site.siteMetadata;
-  const image = getImage(props.data.file.childrenImageSharp[0]);
+  const image = getImage(props.data.file.childImageSharp);
 
   return (
     <Layout>
@@ -39,7 +39,7 @@ export const query = graphql`
     }
     file(relativePath: { eq: "banner.png" }) {
       id
-      childrenImageSharp {
+      childImageSharp {
         gatsbyImageData
       }
     }

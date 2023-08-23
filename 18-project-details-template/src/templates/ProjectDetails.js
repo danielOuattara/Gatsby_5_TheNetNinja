@@ -22,10 +22,7 @@ export default function ProjectDetails() {
   );
 }
 
-/* 
-
-
-
+{% comment %} /* 
 import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
@@ -70,6 +67,5 @@ export const query = graphql`
     }
   }
 `
-
-
 */
+ {% endcomment %}
